@@ -1,0 +1,1796 @@
+[
+  {
+    "kelime": "Despite",
+    "tip": "prep.",
+    "anlam": "Rağmen",
+    "ornek_cumle": "Despite the heavy rain, the concert continued."
+  },
+  {
+    "kelime": "Destination",
+    "tip": "n.",
+    "anlam": "Varış Noktası",
+    "ornek_cumle": "Our flight's final destination is Rome."
+  },
+  {
+    "kelime": "Detach",
+    "tip": "v.",
+    "anlam": "Ayırmak",
+    "ornek_cumle": "You can detach the monitor from the stand easily."
+  },
+  {
+    "kelime": "Detective",
+    "tip": "n.",
+    "anlam": "Dedektif",
+    "ornek_cumle": "The detective is investigating the case."
+  },
+  {
+    "kelime": "Dew",
+    "tip": "n.",
+    "anlam": "Kırağı (Nem)",
+    "ornek_cumle": "The grass was wet with morning dew."
+  },
+  {
+    "kelime": "Diagram",
+    "tip": "n.",
+    "anlam": "Şema, Diyagram",
+    "ornek_cumle": "The book includes a diagram explaining the process."
+  },
+  {
+    "kelime": "Diameter",
+    "tip": "n.",
+    "anlam": "Çap",
+    "ornek_cumle": "The diameter of the circle is 10 centimeters."
+  },
+  {
+    "kelime": "Dice",
+    "tip": "n.",
+    "anlam": "Zarlar (Tavla)",
+    "ornek_cumle": "Roll the dice to see how many spaces you move."
+  },
+  {
+    "kelime": "Diet",
+    "tip": "n.",
+    "anlam": "Rejim, Diyet",
+    "ornek_cumle": "He follows a strict diet for health reasons."
+  },
+  {
+    "kelime": "Digest",
+    "tip": "v.",
+    "anlam": "1) Hazm Etmek 2) Olayı Kavramak 3) Özet, Ana Felsefe, Kura",
+    "ornek_cumle": "It took a moment to digest the unexpected news."
+  },
+  {
+    "kelime": "Dim",
+    "tip": "adj.",
+    "anlam": "Kısık, Sönük",
+    "ornek_cumle": "The room was lit by a dim lamp."
+  },
+  {
+    "kelime": "Dip",
+    "tip": "v.",
+    "anlam": "Daldırmak",
+    "ornek_cumle": "She dipped her toe into the cold water."
+  },
+  {
+    "kelime": "Directory",
+    "tip": "n.",
+    "anlam": "Rehber (Telefon Vb.)",
+    "ornek_cumle": "I looked up his number in the phone directory."
+  },
+  {
+    "kelime": "Disaster",
+    "tip": "n.",
+    "anlam": "Felaket, Afet",
+    "ornek_cumle": "The recent flood was a huge natural disaster."
+  },
+  {
+    "kelime": "Disclose",
+    "tip": "v.",
+    "anlam": "Açığa, Meydana Çıkarmak, Bilinmesini Sağlamak",
+    "ornek_cumle": "The company refused to disclose its financial records."
+  },
+  {
+    "kelime": "Disco",
+    "tip": "n.",
+    "anlam": "Disko",
+    "ornek_cumle": "We went dancing at the local disco."
+  },
+  {
+    "kelime": "Disgust",
+    "tip": "n.",
+    "anlam": "Tiksinti",
+    "ornek_cumle": "The smell of rotting food filled me with disgust."
+  },
+  {
+    "kelime": "Dismay",
+    "tip": "n.",
+    "anlam": "1) Süpriz 2) Üzüntü / Korku, Dehşet",
+    "ornek_cumle": "I reacted with dismay when I heard the bad news."
+  },
+  {
+    "kelime": "Dispatch",
+    "tip": "v.",
+    "anlam": "Sevk Etmek, Yollamak",
+    "ornek_cumle": "The package was dispatched yesterday afternoon."
+  },
+  {
+    "kelime": "Displace",
+    "tip": "v.",
+    "anlam": "Yerinden Çıkarmak (Kuvvet Etkisi)",
+    "ornek_cumle": "The earthquake displaced thousands of residents."
+  },
+  {
+    "kelime": "Distinction",
+    "tip": "n.",
+    "anlam": "Küçük Farklılık",
+    "ornek_cumle": "There is a clear distinction between the two theories."
+  },
+  {
+    "kelime": "Dive",
+    "tip": "n.",
+    "anlam": "Dalış",
+    "ornek_cumle": "She prepared to take a deep dive into the sea."
+  },
+  {
+    "kelime": "Diver",
+    "tip": "n.",
+    "anlam": "Dalgıç",
+    "ornek_cumle": "The diver explored the coral reef."
+  },
+  {
+    "kelime": "Divorce",
+    "tip": "v.",
+    "anlam": "Boşanmak",
+    "ornek_cumle": "They decided to divorce after ten years of marriage."
+  },
+  {
+    "kelime": "Dominate",
+    "tip": "v.",
+    "anlam": "Hakim Olma",
+    "ornek_cumle": "The company dominates the local market."
+  },
+  {
+    "kelime": "Donate",
+    "tip": "v.",
+    "anlam": "Bağış Yapmak",
+    "ornek_cumle": "We donated money to the local charity."
+  },
+  {
+    "kelime": "Donation",
+    "tip": "n.",
+    "anlam": "Bağış",
+    "ornek_cumle": "The hospital relies on public donations."
+  },
+  {
+    "kelime": "Donor",
+    "tip": "n.",
+    "anlam": "Bağış Yapan, İyilik Sever",
+    "ornek_cumle": "He became an organ donor after the accident."
+  },
+  {
+    "kelime": "Doom",
+    "tip": "n.",
+    "anlam": "Kötü Kader, Kör Talih",
+    "ornek_cumle": "The factory was sealed by its economic doom."
+  },
+  {
+    "kelime": "Doomsday",
+    "tip": "n.",
+    "anlam": "Ahiret Günü",
+    "ornek_cumle": "The sermon spoke of preparation for Doomsday."
+  },
+  {
+    "kelime": "Dose",
+    "tip": "n.",
+    "anlam": "Bir Seferde Alınan İlaç Miktarı",
+    "ornek_cumle": "Take one dose of medicine three times a day."
+  },
+  {
+    "kelime": "Down Payment",
+    "tip": "n.",
+    "anlam": "Peşin (Ödeme)",
+    "ornek_cumle": "We made a small down payment on the new car."
+  },
+  {
+    "kelime": "Doze",
+    "tip": "v.",
+    "anlam": "Uyuklamak, Hafif Uyku",
+    "ornek_cumle": "She was dozing on the sofa while watching TV."
+  },
+  {
+    "kelime": "Dozen",
+    "tip": "n.",
+    "anlam": "Düzine",
+    "ornek_cumle": "He bought a dozen eggs from the market."
+  },
+  {
+    "kelime": "Draft",
+    "tip": "n.",
+    "anlam": "1) Suret, Müsvedde 2) Banka Çeki, Ödeme Emri",
+    "ornek_cumle": "This is the first draft of my novel."
+  },
+  {
+    "kelime": "Drag",
+    "tip": "v.",
+    "anlam": "Sürüklemek",
+    "ornek_cumle": "They had to drag the heavy box across the floor."
+  },
+  {
+    "kelime": "Dragon",
+    "tip": "n.",
+    "anlam": "Ejderha",
+    "ornek_cumle": "The fantasy story was about a fire-breathing dragon."
+  },
+  {
+    "kelime": "Drain",
+    "tip": "n.",
+    "anlam": "Lağım, Su Yolu",
+    "ornek_cumle": "The water blocked the kitchen sink drain."
+  },
+  {
+    "kelime": "Drama",
+    "tip": "n.",
+    "anlam": "Dram",
+    "ornek_cumle": "She enjoys watching historical drama series."
+  },
+  {
+    "kelime": "Draught",
+    "tip": "n.",
+    "anlam": "Hava Akımı, Ceryan",
+    "ornek_cumle": "I felt a cold draught coming from under the door."
+  },
+  {
+    "kelime": "Draughts",
+    "tip": "n.",
+    "anlam": "Dama Oyunu",
+    "ornek_cumle": "We spent the afternoon playing draughts."
+  },
+  {
+    "kelime": "Drawer",
+    "tip": "n.",
+    "anlam": "Çekmece, Göz",
+    "ornek_cumle": "I keep my socks in the top drawer."
+  },
+  {
+    "kelime": "Drawn",
+    "tip": "adj.",
+    "anlam": "Boğulmak (Past Participle of Draw)",
+    "ornek_cumle": "The child almost drowned in the pool."
+  },
+  {
+    "kelime": "Drug",
+    "tip": "n.",
+    "anlam": "Uyuşturucu Madde, İlaç",
+    "ornek_cumle": "The doctor prescribed a new pain drug."
+  },
+  {
+    "kelime": "Drum",
+    "tip": "n.",
+    "anlam": "1) Davul 2) Makara 3) Varil, Bidon",
+    "ornek_cumle": "The drummer played a complex beat on the drum."
+  },
+  {
+    "kelime": "Duck",
+    "tip": "n., v.",
+    "anlam": "1) Ördek 2) Başını Eğmek",
+    "ornek_cumle": "A line of ducks swam across the pond."
+  },
+  {
+    "kelime": "Duckling",
+    "tip": "n.",
+    "anlam": "Küçük Ördek",
+    "ornek_cumle": "A mother duck led her ducklings across the road."
+  },
+  {
+    "kelime": "Duel",
+    "tip": "n.",
+    "anlam": "Düello",
+    "ornek_cumle": "The two knights fought a duel to the death."
+  },
+  {
+    "kelime": "Dustbin",
+    "tip": "n.",
+    "anlam": "Çöp Tenekesi",
+    "ornek_cumle": "Throw the empty bottles in the dustbin."
+  },
+  {
+    "kelime": "Dye",
+    "tip": "n., v.",
+    "anlam": "Boya, Boyamak (Saç, Kağıt Vb.)",
+    "ornek_cumle": "She decided to dye her hair blue."
+  },
+  {
+    "kelime": "Dynamite",
+    "tip": "n.",
+    "anlam": "Dinamit",
+    "ornek_cumle": "They used dynamite to clear the rocks."
+  },
+  {
+    "kelime": "Dynamo",
+    "tip": "n.",
+    "anlam": "Dinamo",
+    "ornek_cumle": "The bicycle light is powered by a small dynamo."
+  },
+  {
+    "kelime": "Dynasty",
+    "tip": "n.",
+    "anlam": "Hanedanlık",
+    "ornek_cumle": "The Ming dynasty ruled China for many years."
+  },
+  {
+    "kelime": "Eagle",
+    "tip": "n.",
+    "anlam": "Kartal",
+    "ornek_cumle": "An eagle soared high above the mountains."
+  },
+  {
+    "kelime": "Earthquake",
+    "tip": "n.",
+    "anlam": "Deprem",
+    "ornek_cumle": "The city was severely damaged by the earthquake."
+  },
+  {
+    "kelime": "Eel",
+    "tip": "n.",
+    "anlam": "Yılan Balığı",
+    "ornek_cumle": "Eel is a delicacy in some coastal regions."
+  },
+  {
+    "kelime": "Elapse",
+    "tip": "v.",
+    "anlam": "Zamanın Geçmesi (3 Days Have Elapsed)",
+    "ornek_cumle": "Several hours elapsed before the police arrived."
+  },
+  {
+    "kelime": "Embark",
+    "tip": "v.",
+    "anlam": "1) Gemi Yada Uçakla Gitmek 2) Birşey Yapmaya Başlamak",
+    "ornek_cumle": "She is about to embark on a new career."
+  },
+  {
+    "kelime": "Embarrassment",
+    "tip": "n.",
+    "anlam": "1) Sıkıntı 2) Utanmak",
+    "ornek_cumle": "He blushed in embarrassment after tripping."
+  },
+  {
+    "kelime": "Embrace",
+    "tip": "v.",
+    "anlam": "Sarılmak",
+    "ornek_cumle": "They embraced warmly after a long time apart."
+  },
+  {
+    "kelime": "Emotion",
+    "tip": "n.",
+    "anlam": "Kuvvetli Duygu",
+    "ornek_cumle": "Fear is a powerful human emotion."
+  },
+  {
+    "kelime": "Emphasis",
+    "tip": "n.",
+    "anlam": "Önemli, Şiddetli Vurgu",
+    "ornek_cumle": "She placed special emphasis on the need for safety."
+  },
+  {
+    "kelime": "Emphasize",
+    "tip": "v.",
+    "anlam": "Üzerinde Durmak",
+    "ornek_cumle": "He emphasized the importance of hard work."
+  },
+  {
+    "kelime": "Emphatic",
+    "tip": "adj.",
+    "anlam": "Kesinlikle, Mutlak, Kesin (Emphatic Victory Kesin Zafer)",
+    "ornek_cumle": "The team won an emphatic victory of 5-0."
+  },
+  {
+    "kelime": "Empire",
+    "tip": "n.",
+    "anlam": "İmparatorluk",
+    "ornek_cumle": "The Roman Empire was vast and powerful."
+  },
+  {
+    "kelime": "Enormous",
+    "tip": "adj.",
+    "anlam": "Kocaman, İri",
+    "ornek_cumle": "The company made an enormous profit this year."
+  },
+  {
+    "kelime": "Entitle",
+    "tip": "v.",
+    "anlam": "Yetki Vermek, Hak Vermek",
+    "ornek_cumle": "This pass entitles you to free entry."
+  },
+  {
+    "kelime": "Epitaph",
+    "tip": "n.",
+    "anlam": "Mezar Taşı Yazısı",
+    "ornek_cumle": "The gravestone had a simple epitaph."
+  },
+  {
+    "kelime": "Equalize",
+    "tip": "v.",
+    "anlam": "Eşitlemek",
+    "ornek_cumle": "The player scored in the final minute to equalize the score."
+  },
+  {
+    "kelime": "Equip",
+    "tip": "v.",
+    "anlam": "Donatmak",
+    "ornek_cumle": "The office is well equipped with modern technology."
+  },
+  {
+    "kelime": "Equipment",
+    "tip": "n.",
+    "anlam": "Tesisat, Donanım",
+    "ornek_cumle": "You need proper equipment for rock climbing."
+  },
+  {
+    "kelime": "Escort",
+    "tip": "n.",
+    "anlam": "Konvoy, Refakat",
+    "ornek_cumle": "The VIP arrived with a police escort."
+  },
+  {
+    "kelime": "Estate",
+    "tip": "n.",
+    "anlam": "1) Steyşın Araba 2) Mal, Mülk, Arsa",
+    "ornek_cumle": "She inherited a large estate from her grandfather."
+  },
+  {
+    "kelime": "Evacuate",
+    "tip": "v.",
+    "anlam": "1) Boşaltma, Tahliye Etmek 2) Tehlikeden Uzaklaştırmak",
+    "ornek_cumle": "The residents were evacuated due to the flood."
+  },
+  {
+    "kelime": "Evidence",
+    "tip": "n.",
+    "anlam": "Delil",
+    "ornek_cumle": "There is strong evidence linking him to the crime."
+  },
+  {
+    "kelime": "Evolution",
+    "tip": "n.",
+    "anlam": "Evrim",
+    "ornek_cumle": "The theory of evolution is widely accepted."
+  },
+  {
+    "kelime": "Ex",
+    "tip": "prefix",
+    "anlam": "Sabık, Eski (Ex-Wife, Ex-President, Ex-Girl Friend)",
+    "ornek_cumle": "My ex-colleague started his own company."
+  },
+  {
+    "kelime": "Exceed",
+    "tip": "v.",
+    "anlam": "Aşırı",
+    "ornek_cumle": "The cost must not exceed the budget."
+  },
+  {
+    "kelime": "Exclaim",
+    "tip": "v.",
+    "anlam": "Bağırmak",
+    "ornek_cumle": "She exclaimed in surprise when she saw the gift."
+  },
+  {
+    "kelime": "Exclusive",
+    "tip": "adj.",
+    "anlam": "Umuma Açık Olmayan, Başkalarıyla Paylaşılmayan",
+    "ornek_cumle": "The hotel offers exclusive access to the beach."
+  },
+  {
+    "kelime": "Execute",
+    "tip": "v.",
+    "anlam": "Yapmak, Yerine Getirmek, İnfaz Etmek, İdam Etmek",
+    "ornek_cumle": "The company executed the plan perfectly."
+  },
+  {
+    "kelime": "Exhaust",
+    "tip": "n., v.",
+    "anlam": "1) Yorulma, Bitme 2) Egzos",
+    "ornek_cumle": "The marathon runner was completely exhausted. Car exhaust fumes are harmful."
+  },
+  {
+    "kelime": "Exhibit",
+    "tip": "v.",
+    "anlam": "Teşhir Etmek, Göstermek",
+    "ornek_cumle": "The artist will exhibit his latest paintings next month."
+  },
+  {
+    "kelime": "Exhibition",
+    "tip": "n.",
+    "anlam": "Sergi",
+    "ornek_cumle": "We visited a new art exhibition last weekend."
+  },
+  {
+    "kelime": "Expand",
+    "tip": "v.",
+    "anlam": "1) Büyümek, Genişlemek 2) Daha Samimi Ve Konuşkan Olmak",
+    "ornek_cumle": "The company plans to expand its operations overseas."
+  },
+  {
+    "kelime": "Expansion",
+    "tip": "n.",
+    "anlam": "1) Genişleme, Büyüme 2) Genişleyen Kısım, Ek",
+    "ornek_cumle": "The factory underwent a major expansion last year."
+  },
+  {
+    "kelime": "Experiment",
+    "tip": "n.",
+    "anlam": "Deney",
+    "ornek_cumle": "The scientist conducted a new experiment on the virus."
+  },
+  {
+    "kelime": "Expire",
+    "tip": "v.",
+    "anlam": "Sürenin Dolması",
+    "ornek_cumle": "My passport will expire next month."
+  },
+  {
+    "kelime": "Explosive",
+    "tip": "n., adj.",
+    "anlam": "Patlayıcı Madde",
+    "ornek_cumle": "Handle the explosive materials with extreme care."
+  },
+  {
+    "kelime": "Export",
+    "tip": "n.",
+    "anlam": "İhraç Malı, İhracat",
+    "ornek_cumle": "Coffee is the main export of that country."
+  },
+  {
+    "kelime": "Extinguish",
+    "tip": "v.",
+    "anlam": "Işığı Veya Ateşi Söndürmek",
+    "ornek_cumle": "The firefighter managed to extinguish the fire."
+  },
+  {
+    "kelime": "Extreme",
+    "tip": "adj.",
+    "anlam": "Son Derece, Aşırı",
+    "ornek_cumle": "They faced extreme weather conditions."
+  },
+  {
+    "kelime": "Eyebrow",
+    "tip": "n.",
+    "anlam": "Kaş",
+    "ornek_cumle": "He raised an eyebrow in surprise."
+  },
+  {
+    "kelime": "Eyelash",
+    "tip": "n.",
+    "anlam": "Kirpik",
+    "ornek_cumle": "A tiny eyelash fell into her eye."
+  },
+  {
+    "kelime": "Eyelid",
+    "tip": "n.",
+    "anlam": "Göz Kapağı",
+    "ornek_cumle": "She closed her eyelids and went to sleep."
+  },
+  {
+    "kelime": "Fable",
+    "tip": "n.",
+    "anlam": "Masal, Efsane",
+    "ornek_cumle": "The story was a simple fable with a clear moral lesson."
+  },
+  {
+    "kelime": "Fabulous",
+    "tip": "adj.",
+    "anlam": "Harika, İnanılmaz",
+    "ornek_cumle": "We had a fabulous time at the concert."
+  },
+  {
+    "kelime": "Fact",
+    "tip": "n.",
+    "anlam": "Gerçek",
+    "ornek_cumle": "It is a well-known fact that the Earth is round."
+  },
+  {
+    "kelime": "Fake",
+    "tip": "adj.",
+    "anlam": "Taklit, Sahte",
+    "ornek_cumle": "The police discovered a factory making fake watches."
+  },
+  {
+    "kelime": "Fame",
+    "tip": "n.",
+    "anlam": "Şöhret, Ün",
+    "ornek_cumle": "He achieved international fame after his movie success."
+  },
+  {
+    "kelime": "Fan",
+    "tip": "n.",
+    "anlam": "1) Hava Hareketi 2) Taraftar",
+    "ornek_cumle": "She is a huge fan of the local football team."
+  },
+  {
+    "kelime": "Fancy",
+    "tip": "n., adj.",
+    "anlam": "1) Hayal Kurma 2) Hoş Zevkli 3) Fantazi",
+    "ornek_cumle": "He had a sudden fancy to travel to Asia."
+  },
+  {
+    "kelime": "Feature",
+    "tip": "n.",
+    "anlam": "Özellik",
+    "ornek_cumle": "The main feature of the new building is its glass roof."
+  },
+  {
+    "kelime": "Fed Up",
+    "tip": "adj.",
+    "anlam": "Bıkmak (I'm Fed Up: Bıktım)",
+    "ornek_cumle": "I am fed up with this constant noise."
+  },
+  {
+    "kelime": "Federal",
+    "tip": "adj.",
+    "anlam": "Federal, Federe, Grup İçinde Birleşmiş",
+    "ornek_cumle": "The country has a federal system of government."
+  },
+  {
+    "kelime": "Ferry",
+    "tip": "n.",
+    "anlam": "Feribot, Araba Vapuru",
+    "ornek_cumle": "We took the ferry across the sea."
+  },
+  {
+    "kelime": "Fertile",
+    "tip": "adj.",
+    "anlam": "1) Gübre 2) Üretken",
+    "ornek_cumle": "The valley has very fertile soil."
+  },
+  {
+    "kelime": "Fertilize",
+    "tip": "v.",
+    "anlam": "1) Gübreleme 2) Döllenme",
+    "ornek_cumle": "The farmer needs to fertilize the field before planting."
+  },
+  {
+    "kelime": "Festival",
+    "tip": "n.",
+    "anlam": "Festival",
+    "ornek_cumle": "The town holds an annual music festival."
+  },
+  {
+    "kelime": "Fiance",
+    "tip": "n.",
+    "anlam": "Nişanlı",
+    "ornek_cumle": "She is going to marry her fiancé next summer."
+  },
+  {
+    "kelime": "Fiction",
+    "tip": "n.",
+    "anlam": "Kurgu (Roman)",
+    "ornek_cumle": "I prefer reading non-fiction over fiction."
+  },
+  {
+    "kelime": "Fig",
+    "tip": "n.",
+    "anlam": "1) İncir 2) Çok Önemsiz Konu",
+    "ornek_cumle": "The fruit basket contained fresh figs."
+  },
+  {
+    "kelime": "Fire-Brigade",
+    "tip": "n.",
+    "anlam": "İtfaiye",
+    "ornek_cumle": "The fire-brigade arrived quickly at the scene."
+  },
+  {
+    "kelime": "Fiscal",
+    "tip": "adj.",
+    "anlam": "Devletin, Para, Vergi, Borç İle İlişkili",
+    "ornek_cumle": "The country is facing a major fiscal crisis."
+  },
+  {
+    "kelime": "Fist",
+    "tip": "n.",
+    "anlam": "Yumruk",
+    "ornek_cumle": "He clenched his hand into a tight fist."
+  },
+  {
+    "kelime": "Flea",
+    "tip": "n.",
+    "anlam": "Pire",
+    "ornek_cumle": "The dog was scratching because of fleas."
+  },
+  {
+    "kelime": "Flee",
+    "tip": "v.",
+    "anlam": "Kaçmak",
+    "ornek_cumle": "The villagers had to flee from the approaching army."
+  },
+  {
+    "kelime": "Fleet",
+    "tip": "n.",
+    "anlam": "Filo (Gemi Vb.)",
+    "ornek_cumle": "The navy sent its entire fleet to the region."
+  },
+  {
+    "kelime": "Flipper",
+    "tip": "n.",
+    "anlam": "1) Yüzme Paleti, 2) Yüzgeç",
+    "ornek_cumle": "I bought new flippers for diving."
+  },
+  {
+    "kelime": "Florist",
+    "tip": "n.",
+    "anlam": "Çiçekçi, Çiçek Yetiştiren Kimse",
+    "ornek_cumle": "I ordered a bouquet of roses from the florist."
+  },
+  {
+    "kelime": "Fluent",
+    "tip": "adj.",
+    "anlam": "Akıcı",
+    "ornek_cumle": "She is fluent in three languages."
+  },
+  {
+    "kelime": "Foam",
+    "tip": "n.",
+    "anlam": "Köpük",
+    "ornek_cumle": "The wave left a trail of sea foam on the beach."
+  },
+  {
+    "kelime": "Foam Rubber",
+    "tip": "n.",
+    "anlam": "Sünger",
+    "ornek_cumle": "The mattress is made of soft foam rubber."
+  },
+  {
+    "kelime": "Folk",
+    "tip": "n.",
+    "anlam": "Halk",
+    "ornek_cumle": "We listened to traditional folk music."
+  },
+  {
+    "kelime": "Football",
+    "tip": "n.",
+    "anlam": "Futbol",
+    "ornek_cumle": "Football is the most popular sport in the world."
+  },
+  {
+    "kelime": "Footprint",
+    "tip": "n.",
+    "anlam": "Ayak İzi",
+    "ornek_cumle": "We saw a footprint in the mud."
+  },
+  {
+    "kelime": "Foreman",
+    "tip": "n.",
+    "anlam": "Ustabaşı, Formen",
+    "ornek_cumle": "The foreman supervises the workers on the construction site."
+  },
+  {
+    "kelime": "Forever",
+    "tip": "adv.",
+    "anlam": "Devamlı Olarak",
+    "ornek_cumle": "The memories will last forever."
+  },
+  {
+    "kelime": "Forge",
+    "tip": "v.",
+    "anlam": "1) Sahtesini Yapmak 2) Demir Metale Şekil Vermek",
+    "ornek_cumle": "He forged his boss's signature on the document."
+  },
+  {
+    "kelime": "Forger",
+    "tip": "n.",
+    "anlam": "Üçkağıtçı, Taklitçi",
+    "ornek_cumle": "The police arrested the notorious art forger."
+  },
+  {
+    "kelime": "Formal",
+    "tip": "adj.",
+    "anlam": "Resmi, Ciddi",
+    "ornek_cumle": "Guests should wear formal attire to the dinner."
+  },
+  {
+    "kelime": "Forthwith",
+    "tip": "adv.",
+    "anlam": "Derhal, Hemen",
+    "ornek_cumle": "The order must be carried out forthwith."
+  },
+  {
+    "kelime": "Foul",
+    "tip": "adj.",
+    "anlam": "Pis, Kirli",
+    "ornek_cumle": "The river water has a foul smell."
+  },
+  {
+    "kelime": "Found",
+    "tip": "v.",
+    "anlam": "İnşa Etmek Veya Başlamak",
+    "ornek_cumle": "The city was founded over 500 years ago."
+  },
+  {
+    "kelime": "Fragile",
+    "tip": "adj.",
+    "anlam": "Kolay Kırılabir",
+    "ornek_cumle": "Handle this box with care; it contains fragile items."
+  },
+  {
+    "kelime": "Frank",
+    "tip": "adj.",
+    "anlam": "Açık Sözlü, Samimi",
+    "ornek_cumle": "To be frank, I don't think that's a good idea."
+  },
+  {
+    "kelime": "Freight",
+    "tip": "n.",
+    "anlam": "Hamule, Navlun",
+    "ornek_cumle": "The cargo ship carries heavy freight across the ocean."
+  },
+  {
+    "kelime": "Fridge",
+    "tip": "n.",
+    "anlam": "Buzdolabı",
+    "ornek_cumle": "I keep the milk in the fridge."
+  },
+  {
+    "kelime": "Frontier",
+    "tip": "n.",
+    "anlam": "Sınır",
+    "ornek_cumle": "The soldiers were guarding the country's frontier."
+  },
+  {
+    "kelime": "Fry",
+    "tip": "v.",
+    "anlam": "Kızartmak",
+    "ornek_cumle": "Can you fry the eggs for breakfast?"
+  },
+  {
+    "kelime": "Full Stop",
+    "tip": "n.",
+    "anlam": "Nokta",
+    "ornek_cumle": "Every sentence must end with a full stop."
+  },
+  {
+    "kelime": "Fundamental",
+    "tip": "adj.",
+    "anlam": "Temel, Önem, Çok Gerekli",
+    "ornek_cumle": "Respect is a fundamental principle of democracy."
+  },
+  {
+    "kelime": "Funeral",
+    "tip": "n.",
+    "anlam": "Cenaze",
+    "ornek_cumle": "The family gathered for the funeral service."
+  },
+  {
+    "kelime": "Furthermore",
+    "tip": "adv.",
+    "anlam": "Yanında, Ayrıca, Üstelik",
+    "ornek_cumle": "Furthermore, we need to consider the long-term costs."
+  },
+  {
+    "kelime": "Fuse",
+    "tip": "n.",
+    "anlam": "Sigorta (Elektrik Vb.)",
+    "ornek_cumle": "The lights went out because the fuse blew."
+  },
+  {
+    "kelime": "Fuss",
+    "tip": "n.",
+    "anlam": "Telaş, Telaşlanmak",
+    "ornek_cumle": "Stop making a fuss about such a small problem."
+  },
+  {
+    "kelime": "Gaol",
+    "tip": "n.",
+    "anlam": "Hapishane",
+    "ornek_cumle": "The criminal was sent to gaol for his crimes."
+  },
+  {
+    "kelime": "Gay",
+    "tip": "adj.",
+    "anlam": "1) Mutlu, Parlak, Çok Renkli 2) Homo",
+    "ornek_cumle": "The children had a gay time at the park."
+  },
+  {
+    "kelime": "Gear",
+    "tip": "n.",
+    "anlam": "Vites",
+    "ornek_cumle": "He shifted the car into third gear."
+  },
+  {
+    "kelime": "Germ",
+    "tip": "n.",
+    "anlam": "Mikrop",
+    "ornek_cumle": "Wash your hands to prevent the spread of germs."
+  },
+  {
+    "kelime": "Ghost",
+    "tip": "n.",
+    "anlam": "Hayalet, Hortlak",
+    "ornek_cumle": "The old castle is rumored to have a ghost."
+  },
+  {
+    "kelime": "Gigolo",
+    "tip": "n.",
+    "anlam": "Jigolo",
+    "ornek_cumle": "The wealthy woman often hired a gigolo for company."
+  },
+  {
+    "kelime": "Ginger",
+    "tip": "n.",
+    "anlam": "Zencefil, Hafif Kahverengi",
+    "ornek_cumle": "I added fresh ginger to the tea."
+  },
+  {
+    "kelime": "Globe",
+    "tip": "n.",
+    "anlam": "Küre, Dünya",
+    "ornek_cumle": "The teacher pointed to the countries on the globe."
+  },
+  {
+    "kelime": "Glue",
+    "tip": "n.",
+    "anlam": "Yapıştırıcı",
+    "ornek_cumle": "I need some strong glue to fix the broken cup."
+  },
+  {
+    "kelime": "Goal",
+    "tip": "n.",
+    "anlam": "Hedef, Gaye, Gol",
+    "ornek_cumle": "Our goal is to finish the project by the end of the month."
+  },
+  {
+    "kelime": "Gossip",
+    "tip": "n., v.",
+    "anlam": "Dedikodu Yapmak, Dedikodu",
+    "ornek_cumle": "I don't like listening to office gossip."
+  },
+  {
+    "kelime": "Grapefruit",
+    "tip": "n.",
+    "anlam": "Greyfurt",
+    "ornek_cumle": "I had half a grapefruit for breakfast."
+  },
+  {
+    "kelime": "Grateful",
+    "tip": "adj.",
+    "anlam": "Minnettar",
+    "ornek_cumle": "I am truly grateful for your generous help."
+  },
+  {
+    "kelime": "Gravestone",
+    "tip": "n.",
+    "anlam": "Mezartaşı",
+    "ornek_cumle": "The inscription on the gravestone was hard to read."
+  },
+  {
+    "kelime": "Graveyard",
+    "tip": "n.",
+    "anlam": "Mezarlık, Mezar",
+    "ornek_cumle": "The old church is surrounded by a graveyard."
+  },
+  {
+    "kelime": "Greengrocer",
+    "tip": "n.",
+    "anlam": "Manav",
+    "ornek_cumle": "I bought fresh vegetables from the greengrocer."
+  },
+  {
+    "kelime": "Groom",
+    "tip": "n.",
+    "anlam": "Damat",
+    "ornek_cumle": "The groom waited nervously for his bride."
+  },
+  {
+    "kelime": "Grumble",
+    "tip": "v.",
+    "anlam": "Sızlanmak, Yakınmak",
+    "ornek_cumle": "He often grumbles about the quality of the food."
+  },
+  {
+    "kelime": "Guarantee",
+    "tip": "n.",
+    "anlam": "Garanti",
+    "ornek_cumle": "The new phone comes with a two-year guarantee."
+  },
+  {
+    "kelime": "Guided Missile",
+    "tip": "n.",
+    "anlam": "YI GÜDÜMLÜ ROKET",
+    "ornek_cumle": "The army deployed a new type of guided missile."
+  },
+  {
+    "kelime": "Guitar",
+    "tip": "n.",
+    "anlam": "Gitar",
+    "ornek_cumle": "She plays the acoustic guitar very well."
+  },
+  {
+    "kelime": "Gulf",
+    "tip": "n.",
+    "anlam": "Körfez",
+    "ornek_cumle": "The boat sailed slowly across the gulf."
+  },
+  {
+    "kelime": "Guy",
+    "tip": "n.",
+    "anlam": "Adam",
+    "ornek_cumle": "He is a great guy to work with."
+  },
+  {
+    "kelime": "Habitat",
+    "tip": "n.",
+    "anlam": "Doğal Yuva (Hayvan, Bitki Vb. Yaşadığı Yer)",
+    "ornek_cumle": "The destruction of the rainforest harms the local habitat."
+  },
+  {
+    "kelime": "Hairdresser",
+    "tip": "n.",
+    "anlam": "Kuvaför, Berber",
+    "ornek_cumle": "I have an appointment with the hairdresser tomorrow."
+  },
+  {
+    "kelime": "Hairdryer",
+    "tip": "n.",
+    "anlam": "Saç Kurutma Makinası",
+    "ornek_cumle": "Don't forget to pack your hairdryer."
+  },
+  {
+    "kelime": "Halt",
+    "tip": "v.",
+    "anlam": "Dur",
+    "ornek_cumle": "The police ordered the vehicle to halt."
+  },
+  {
+    "kelime": "Ham",
+    "tip": "n.",
+    "anlam": "Domuz Ayağındaki Et",
+    "ornek_cumle": "I ordered a sandwich with ham and cheese."
+  },
+  {
+    "kelime": "Hand Grenade",
+    "tip": "n.",
+    "anlam": "El Bombası",
+    "ornek_cumle": "The soldier threw a hand grenade at the enemy position."
+  },
+  {
+    "kelime": "Handicap",
+    "tip": "n.",
+    "anlam": "Sakat",
+    "ornek_cumle": "He overcame his physical handicap to become an athlete."
+  },
+  {
+    "kelime": "Hang On",
+    "tip": "phrasal v.",
+    "anlam": "Bekle",
+    "ornek_cumle": "Please hang on a moment while I check the details."
+  },
+  {
+    "kelime": "Happen",
+    "tip": "v.",
+    "anlam": "Olmak",
+    "ornek_cumle": "I wonder what happened to him."
+  },
+  {
+    "kelime": "Head Quarters",
+    "tip": "n.",
+    "anlam": "Merkez, Karargah",
+    "ornek_cumle": "The company headquarters is located in London."
+  },
+  {
+    "kelime": "Headline",
+    "tip": "n.",
+    "anlam": "Başlık (Gazetede)",
+    "ornek_cumle": "The news about the election made the front-page headline."
+  },
+  {
+    "kelime": "Headphone",
+    "tip": "n.",
+    "anlam": "Kulaklık",
+    "ornek_cumle": "She listens to music using headphones."
+  },
+  {
+    "kelime": "Hectare",
+    "tip": "n.",
+    "anlam": "Hektar",
+    "ornek_cumle": "The farm covers an area of 50 hectares."
+  },
+  {
+    "kelime": "Heritage",
+    "tip": "n.",
+    "anlam": "Miras",
+    "ornek_cumle": "We must protect our cultural heritage."
+  },
+  {
+    "kelime": "Hinge",
+    "tip": "n.",
+    "anlam": "1) Menteşe 2) Dayanak Noktası, Destek, Esas",
+    "ornek_cumle": "The door hinge was squeaking loudly."
+  },
+  {
+    "kelime": "Hold On",
+    "tip": "phrasal v.",
+    "anlam": "Bekle",
+    "ornek_cumle": "Hold on tight to the railing on the stairs."
+  },
+  {
+    "kelime": "Holy",
+    "tip": "adj.",
+    "anlam": "Kutsal",
+    "ornek_cumle": "Jerusalem is considered a holy city."
+  },
+  {
+    "kelime": "Hook",
+    "tip": "n.",
+    "anlam": "Çengel, Kanca",
+    "ornek_cumle": "Hang your coat on the wall hook."
+  },
+  {
+    "kelime": "Horizontal",
+    "tip": "adj.",
+    "anlam": "Yatay",
+    "ornek_cumle": "Draw a straight horizontal line across the paper."
+  },
+  {
+    "kelime": "Hose",
+    "tip": "n.",
+    "anlam": "Hortum",
+    "ornek_cumle": "I used the garden hose to water the flowers."
+  },
+  {
+    "kelime": "Hubbub",
+    "tip": "n.",
+    "anlam": "Gürültü",
+    "ornek_cumle": "The crowded market was full of noise and hubbub."
+  },
+  {
+    "kelime": "Hug",
+    "tip": "v.",
+    "anlam": "Sarılmak, Kucaklamak",
+    "ornek_cumle": "She gave her mother a warm hug."
+  },
+  {
+    "kelime": "Huge",
+    "tip": "adj.",
+    "anlam": "Çok Büyük",
+    "ornek_cumle": "The company made a huge investment in technology."
+  },
+  {
+    "kelime": "Human",
+    "tip": "n., adj.",
+    "anlam": "İnsan, Beşeri",
+    "ornek_cumle": "We all make mistakes; it's only human."
+  },
+  {
+    "kelime": "Hush",
+    "tip": "n.",
+    "anlam": "Sakinlik, Sessizlik, Sus",
+    "ornek_cumle": "A sudden hush fell over the audience."
+  },
+  {
+    "kelime": "Hut",
+    "tip": "n.",
+    "anlam": "Kulübe, Baraka",
+    "ornek_cumle": "The fisherman lived in a small wooden hut by the sea."
+  },
+  {
+    "kelime": "Idiot",
+    "tip": "n.",
+    "anlam": "Aptal",
+    "ornek_cumle": "He felt like a complete idiot after making the mistake."
+  },
+  {
+    "kelime": "Ignition",
+    "tip": "n.",
+    "anlam": "1) Tutuşma, Ateşleme, Ateş Alma 2) Ateşleme Tertibatı",
+    "ornek_cumle": "Turn the key in the ignition to start the car."
+  },
+  {
+    "kelime": "Ignore",
+    "tip": "v.",
+    "anlam": "Önemsememek",
+    "ornek_cumle": "He ignored my warning and continued to walk."
+  },
+  {
+    "kelime": "Illustrate",
+    "tip": "v.",
+    "anlam": "Resimle Göstermek",
+    "ornek_cumle": "The teacher used diagrams to illustrate her point."
+  },
+  {
+    "kelime": "Imagination",
+    "tip": "n.",
+    "anlam": "Tasavvur, Hayal",
+    "ornek_cumle": "It takes a lot of imagination to write a good fantasy novel."
+  },
+  {
+    "kelime": "Imagine",
+    "tip": "v.",
+    "anlam": "Tasavvur Etmek, Hayal Etmek",
+    "ornek_cumle": "Try to imagine a world without electricity."
+  },
+  {
+    "kelime": "Imitate",
+    "tip": "v.",
+    "anlam": "Örnek Almak, Taklit Etmek",
+    "ornek_cumle": "The parrot can imitate human speech."
+  },
+  {
+    "kelime": "Imitation",
+    "tip": "n.",
+    "anlam": "Taklit",
+    "ornek_cumle": "The ring turned out to be an imitation, not real gold."
+  },
+  {
+    "kelime": "Immoral",
+    "tip": "adj.",
+    "anlam": "Ahlaksız, Edepsiz",
+    "ornek_cumle": "Cheating in a test is considered an immoral act."
+  },
+  {
+    "kelime": "Impair",
+    "tip": "v.",
+    "anlam": "Bozmak",
+    "ornek_cumle": "Smoking can seriously impair your health."
+  },
+  {
+    "kelime": "Implement",
+    "tip": "v., n.",
+    "anlam": "1) Yürürlüğe Koymak 2) Alet",
+    "ornek_cumle": "The school decided to implement a new grading system."
+  },
+  {
+    "kelime": "Imply",
+    "tip": "v.",
+    "anlam": "İma Etme",
+    "ornek_cumle": "Are you implying that I am wrong?"
+  },
+  {
+    "kelime": "Impress",
+    "tip": "v.",
+    "anlam": "Etkilemek",
+    "ornek_cumle": "She tried to impress the interviewer with her knowledge."
+  },
+  {
+    "kelime": "Impressive",
+    "tip": "adj.",
+    "anlam": "Etkili, Etkileyici",
+    "ornek_cumle": "Her presentation was very impressive."
+  },
+  {
+    "kelime": "Incentive",
+    "tip": "n.",
+    "anlam": "Teşvik",
+    "ornek_cumle": "The government offered a tax incentive to new businesses."
+  },
+  {
+    "kelime": "Incidentally",
+    "tip": "adv.",
+    "anlam": "Bunun Yanında (=By The Way)",
+    "ornek_cumle": "Incidentally, I saw your brother at the airport yesterday."
+  },
+  {
+    "kelime": "Indefinite",
+    "tip": "adj.",
+    "anlam": "Belirsiz",
+    "ornek_cumle": "The meeting was postponed for an indefinite period."
+  },
+  {
+    "kelime": "Indefinitely",
+    "tip": "adv.",
+    "anlam": "Sonsuz, Süresiz",
+    "ornek_cumle": "The project has been suspended indefinitely."
+  },
+  {
+    "kelime": "Indemnify",
+    "tip": "v.",
+    "anlam": "1) Tazminat Ödemek, Söz Vermek, Zararı Karşılamak",
+    "ornek_cumle": "The insurance policy will indemnify you against theft."
+  },
+  {
+    "kelime": "Indemnity",
+    "tip": "n.",
+    "anlam": "Tazminat",
+    "ornek_cumle": "He received indemnity for his losses."
+  },
+  {
+    "kelime": "Index",
+    "tip": "n.",
+    "anlam": "Index",
+    "ornek_cumle": "Look up the topic in the index at the back of the book."
+  },
+  {
+    "kelime": "Individual",
+    "tip": "n.",
+    "anlam": "Ayrı, Birey, Fert, Kimse",
+    "ornek_cumle": "Every individual has the right to express their opinion."
+  },
+  {
+    "kelime": "Indorse",
+    "tip": "v.",
+    "anlam": "Çeki Cıro Etmek, Onaylamak",
+    "ornek_cumle": "He indorsed the check so I could deposit it."
+  },
+  {
+    "kelime": "Endorsement",
+    "tip": "n.",
+    "anlam": "Tastik, Onay, Ciro",
+    "ornek_cumle": "The product received an endorsement from a famous celebrity."
+  },
+  {
+    "kelime": "Inevitable",
+    "tip": "adj.",
+    "anlam": "Kaçınılmaz, Herhalde Olan",
+    "ornek_cumle": "Change is an inevitable part of life."
+  },
+  {
+    "kelime": "Infinite",
+    "tip": "adj.",
+    "anlam": "Sonsuz",
+    "ornek_cumle": "The universe is considered infinite."
+  },
+  {
+    "kelime": "Inflammable",
+    "tip": "adj.",
+    "anlam": "Ateş Alabilir",
+    "ornek_cumle": "Keep all inflammable materials away from open flames."
+  },
+  {
+    "kelime": "Inflate",
+    "tip": "v.",
+    "anlam": "Şişmek",
+    "ornek_cumle": "We need to inflate the tires before the long journey."
+  },
+  {
+    "kelime": "Inflation",
+    "tip": "n.",
+    "anlam": "Enflasyon",
+    "ornek_cumle": "The country is struggling with high inflation rates."
+  },
+  {
+    "kelime": "Inflexible",
+    "tip": "adj.",
+    "anlam": "Eğilmesi Zor, Bükülmez, İnatçı",
+    "ornek_cumle": "The boss was inflexible regarding the project deadline."
+  },
+  {
+    "kelime": "Initial",
+    "tip": "n.",
+    "anlam": "İlk Harf, Birinci, Baştaki, Paraf",
+    "ornek_cumle": "My initial reaction was to refuse the offer."
+  },
+  {
+    "kelime": "Initiative",
+    "tip": "n.",
+    "anlam": "İlk Hareket, Başlatma, İnsiyatif (Take The initiative)",
+    "ornek_cumle": "He took the initiative to organize the cleanup day."
+  },
+  {
+    "kelime": "Inject",
+    "tip": "v.",
+    "anlam": "Şırınga Yapmak",
+    "ornek_cumle": "The nurse had to inject the vaccine."
+  },
+  {
+    "kelime": "Innocent",
+    "tip": "adj.",
+    "anlam": "Suçsuz, Masum",
+    "ornek_cumle": "The jury found the defendant innocent."
+  },
+  {
+    "kelime": "Insecure",
+    "tip": "adj.",
+    "anlam": "Emniyetsiz",
+    "ornek_cumle": "She felt insecure about giving a speech in public."
+  },
+  {
+    "kelime": "Insolvent",
+    "tip": "adj.",
+    "anlam": "Müflis",
+    "ornek_cumle": "The company was declared insolvent after heavy losses."
+  },
+  {
+    "kelime": "Inspire",
+    "tip": "v.",
+    "anlam": "Akla, Fikre Getirme, Esinleme, İlham Gelmesi",
+    "ornek_cumle": "Her story inspired me to start my own business."
+  },
+  {
+    "kelime": "Instant",
+    "tip": "adj.",
+    "anlam": "Hızlı, Derhal",
+    "ornek_cumle": "The problem requires an instant solution."
+  },
+  {
+    "kelime": "Insulate",
+    "tip": "v.",
+    "anlam": "İzole Etmek",
+    "ornek_cumle": "We need to insulate the house against the cold."
+  },
+  {
+    "kelime": "Insult",
+    "tip": "v.",
+    "anlam": "Hakaret Etme, Onur Kırma",
+    "ornek_cumle": "I didn't mean to insult you with my comment."
+  },
+  {
+    "kelime": "Intangible",
+    "tip": "adj.",
+    "anlam": "Manevi, Maddi Olmayan",
+    "ornek_cumle": "Goodwill is an intangible asset for a business."
+  },
+  {
+    "kelime": "Intense",
+    "tip": "adj.",
+    "anlam": "Derin Üzüntü, Güçlü Duygu",
+    "ornek_cumle": "The heat from the fire was intense."
+  },
+  {
+    "kelime": "Intensive",
+    "tip": "adj.",
+    "anlam": "Yoğun (Labour İntensive: Emek Yoğun)",
+    "ornek_cumle": "The course required an intensive period of study."
+  },
+  {
+    "kelime": "Interfere",
+    "tip": "v.",
+    "anlam": "1) Karışma Müdahele Etme 2) Parazit Yapma (Tv, Radyo)",
+    "ornek_cumle": "The noise from the construction interfered with the broadcast."
+  },
+  {
+    "kelime": "Intestines",
+    "tip": "n.",
+    "anlam": "Bağırsaklar",
+    "ornek_cumle": "The doctor examined his intestines after the surgery."
+  },
+  {
+    "kelime": "Invade",
+    "tip": "v.",
+    "anlam": "İstila Etmek",
+    "ornek_cumle": "The neighboring country threatened to invade."
+  },
+  {
+    "kelime": "Invoice",
+    "tip": "n.",
+    "anlam": "Fatura",
+    "ornek_cumle": "I received an invoice for the goods delivered."
+  },
+  {
+    "kelime": "Involve",
+    "tip": "v.",
+    "anlam": "İşe Dalmak, Karışmak, Gerektirmek, İçermek",
+    "ornek_cumle": "The job involves a lot of travelling."
+  },
+  {
+    "kelime": "Ironically",
+    "tip": "adv.",
+    "anlam": "Tam Aksi Olma, İnadına",
+    "ornek_cumle": "Ironically, the fire station burned down last night."
+  },
+  {
+    "kelime": "Irritate",
+    "tip": "v.",
+    "anlam": "Kızdırmak, Sinirlendirmek, Tahriş Etmek (Deri Vb.)",
+    "ornek_cumle": "The itchy tag on my shirt started to irritate my neck."
+  },
+  {
+    "kelime": "Itch",
+    "tip": "v.",
+    "anlam": "Kaşındırmak",
+    "ornek_cumle": "The insect bite started to itch terribly."
+  },
+  {
+    "kelime": "Item",
+    "tip": "n.",
+    "anlam": "Birim",
+    "ornek_cumle": "The last item on the agenda is the budget."
+  },
+  {
+    "kelime": "Jack",
+    "tip": "n.",
+    "anlam": "1) Kriko 2) Vale (Oyun Kağıdında) 3) Torpil Yaptırmak",
+    "ornek_cumle": "I used a car jack to change the tire."
+  },
+  {
+    "kelime": "Jackal",
+    "tip": "n.",
+    "anlam": "Çakal",
+    "ornek_cumle": "We heard the howl of a jackal in the distance."
+  },
+  {
+    "kelime": "Jacket",
+    "tip": "n.",
+    "anlam": "Ceket",
+    "ornek_cumle": "Don't forget to zip up your jacket before going outside."
+  },
+  {
+    "kelime": "Jaguar",
+    "tip": "n.",
+    "anlam": "Jaguar",
+    "ornek_cumle": "The jaguar is a magnificent wild cat."
+  },
+  {
+    "kelime": "Jar",
+    "tip": "n.",
+    "anlam": "Kavanoz",
+    "ornek_cumle": "The cookies are stored in a glass jar."
+  },
+  {
+    "kelime": "Jeans",
+    "tip": "n.",
+    "anlam": "Jin, Kot Pantolon (Pamuklu)",
+    "ornek_cumle": "He wears blue jeans almost every day."
+  },
+  {
+    "kelime": "Jelly",
+    "tip": "n.",
+    "anlam": "Jöle",
+    "ornek_cumle": "The children love eating strawberry jelly."
+  },
+  {
+    "kelime": "Jellyfish",
+    "tip": "n.",
+    "anlam": "Denizanası, Medüs, Su Medüsü",
+    "ornek_cumle": "Be careful not to touch the jellyfish in the water."
+  },
+  {
+    "kelime": "Jockey",
+    "tip": "n.",
+    "anlam": "Cokey",
+    "ornek_cumle": "The jockey weighed in before the horse race."
+  },
+  {
+    "kelime": "Jubilee",
+    "tip": "n.",
+    "anlam": "Jübile",
+    "ornek_cumle": "The country celebrated the Queen's Diamond Jubilee."
+  },
+  {
+    "kelime": "Keen",
+    "tip": "adj.",
+    "anlam": "Keskin (Keen On: Hoşlanmak)",
+    "ornek_cumle": "He has a keen interest in photography."
+  },
+  {
+    "kelime": "Ketchup",
+    "tip": "n.",
+    "anlam": "Ketçap",
+    "ornek_cumle": "Would you like ketchup with your fries?"
+  },
+  {
+    "kelime": "Kidnap",
+    "tip": "v.",
+    "anlam": "Zorla Kaçırmak (İnsan, Hayvan Vb.)",
+    "ornek_cumle": "The criminals planned to kidnap the wealthy businessman."
+  },
+  {
+    "kelime": "Kidney",
+    "tip": "n.",
+    "anlam": "Böbrek",
+    "ornek_cumle": "The doctor checked the function of her kidneys."
+  },
+  {
+    "kelime": "Kin",
+    "tip": "n.",
+    "anlam": "Aile, Akraba",
+    "ornek_cumle": "He invited all his close kin to the wedding."
+  },
+  {
+    "kelime": "Knight",
+    "tip": "n.",
+    "anlam": "Silahşör, Şovalye, Satrançta At",
+    "ornek_cumle": "The knight saved the princess from the dragon."
+  },
+  {
+    "kelime": "Knob",
+    "tip": "n.",
+    "anlam": "Tokmak, Tutacak",
+    "ornek_cumle": "Turn the door knob to open the door."
+  },
+  {
+    "kelime": "Label",
+    "tip": "n.",
+    "anlam": "Etiket",
+    "ornek_cumle": "Read the washing instructions on the label."
+  },
+  {
+    "kelime": "Laboratory",
+    "tip": "n.",
+    "anlam": "Laboratuvar",
+    "ornek_cumle": "The scientists are working in the research laboratory."
+  },
+  {
+    "kelime": "Ladle",
+    "tip": "n.",
+    "anlam": "Kepçe (Yemek)",
+    "ornek_cumle": "She used a ladle to serve the soup."
+  },
+  {
+    "kelime": "Lamppost",
+    "tip": "n.",
+    "anlam": "Sokak Lambası",
+    "ornek_cumle": "The dog was tied to the lamppost."
+  },
+  {
+    "kelime": "Lampshade",
+    "tip": "n.",
+    "anlam": "Abajur",
+    "ornek_cumle": "I bought a new lampshade for my bedroom."
+  },
+  {
+    "kelime": "Lane",
+    "tip": "n.",
+    "anlam": "Dar Yol, Şerit (Oto Yolda Vb.)",
+    "ornek_cumle": "Stay in the left lane when driving on the highway."
+  },
+  {
+    "kelime": "Lash",
+    "tip": "v.",
+    "anlam": "Kamçı, Birşeyi Ani Ve Hızlı Sallamak",
+    "ornek_cumle": "The storm brought heavy rain and lashing wind."
+  },
+  {
+    "kelime": "Launch",
+    "tip": "v.",
+    "anlam": "Birşeye Başlamak, Roket Fırlatmak",
+    "ornek_cumle": "The company will launch its new product next month."
+  },
+  {
+    "kelime": "Laundry-Basket",
+    "tip": "n.",
+    "anlam": "Çamaşır Sepeti",
+    "ornek_cumle": "Put your dirty clothes in the laundry-basket."
+  },
+  {
+    "kelime": "League",
+    "tip": "n.",
+    "anlam": "Birlik, Lig",
+    "ornek_cumle": "Our team won the championship league last season."
+  },
+  {
+    "kelime": "Leak",
+    "tip": "n.",
+    "anlam": "Akıntı, Sızmak",
+    "ornek_cumle": "There is a water leak under the sink."
+  },
+  {
+    "kelime": "Lease",
+    "tip": "n.",
+    "anlam": "Belirli Bir Zaman İçin Kiralama",
+    "ornek_cumle": "The lease on the apartment expires in six months."
+  },
+  {
+    "kelime": "Lecture",
+    "tip": "n.",
+    "anlam": "Ders, Konferans Vermek",
+    "ornek_cumle": "The professor gave a lecture on ancient history."
+  },
+  {
+    "kelime": "Length",
+    "tip": "n.",
+    "anlam": "Uzunluk",
+    "ornek_cumle": "What is the length of the swimming pool?"
+  },
+  {
+    "kelime": "Lettuce",
+    "tip": "n.",
+    "anlam": "Salata, Kıvırcık",
+    "ornek_cumle": "I put some fresh lettuce in my sandwich."
+  },
+  {
+    "kelime": "Lever",
+    "tip": "n.",
+    "anlam": "Kaldıraç, Manivala",
+    "ornek_cumle": "Pull the lever to activate the machine."
+  },
+  {
+    "kelime": "Liar",
+    "tip": "n.",
+    "anlam": "Yalancı",
+    "ornek_cumle": "I can never trust him; he is a compulsive liar."
+  },
+  {
+    "kelime": "Lick",
+    "tip": "v.",
+    "anlam": "Yalamak",
+    "ornek_cumle": "The dog licked my hand eagerly."
+  },
+  {
+    "kelime": "Lid",
+    "tip": "n.",
+    "anlam": "Kapak",
+    "ornek_cumle": "Put the lid back on the jar."
+  },
+  {
+    "kelime": "Lighter",
+    "tip": "n.",
+    "anlam": "Çakmak",
+    "ornek_cumle": "He borrowed a lighter to light his cigarette."
+  },
+  {
+    "kelime": "Limit",
+    "tip": "n.",
+    "anlam": "Hat, Sınır, Limit",
+    "ornek_cumle": "There is a speed limit of 50 km/h here."
+  },
+  {
+    "kelime": "Liquidate",
+    "tip": "v.",
+    "anlam": "Tasfiye Etmek, Öldürme, Kurtulmak, Başından Atmak",
+    "ornek_cumle": "The company was forced to liquidate its assets."
+  },
+  {
+    "kelime": "Literature",
+    "tip": "n.",
+    "anlam": "Edebiyat",
+    "ornek_cumle": "She studies French literature at university."
+  },
+  {
+    "kelime": "Litter",
+    "tip": "n.",
+    "anlam": "Çöp, Dağınıklık",
+    "ornek_cumle": "Don't drop litter on the street."
+  },
+  {
+    "kelime": "Liver",
+    "tip": "n.",
+    "anlam": "Karaciğer",
+    "ornek_cumle": "The liver plays a vital role in cleaning the blood."
+  },
+  {
+    "kelime": "Loaf",
+    "tip": "n.",
+    "anlam": "Bütün Ekmek, Vakti Boşa Geçirmek",
+    "ornek_cumle": "She bought a fresh loaf of bread."
+  },
+  {
+    "kelime": "Loan",
+    "tip": "n.",
+    "anlam": "Ödünç Vermek, Borç Vermek, Borç",
+    "ornek_cumle": "I took out a loan to pay for my studies."
+  },
+  {
+    "kelime": "Lobster",
+    "tip": "n.",
+    "anlam": "İstakoz",
+    "ornek_cumle": "Lobster is a very expensive seafood dish."
+  },
+  {
+    "kelime": "Locate",
+    "tip": "v.",
+    "anlam": "Kurmak, Yerleştirmek",
+    "ornek_cumle": "The new factory will be located near the city."
+  },
+  {
+    "kelime": "Lonely",
+    "tip": "adj.",
+    "anlam": "Yalnız, Kimsesiz",
+    "ornek_cumle": "She felt lonely after her friends moved away."
+  },
+  {
+    "kelime": "Lorry",
+    "tip": "n.",
+    "anlam": "Kamyon",
+    "ornek_cumle": "A large lorry blocked the narrow road."
+  },
+  {
+    "kelime": "Loyal",
+    "tip": "adj.",
+    "anlam": "Sadık",
+    "ornek_cumle": "He is a loyal supporter of the football team."
+  },
+  {
+    "kelime": "Loyalty",
+    "tip": "n.",
+    "anlam": "Sadakat, Bağlılık",
+    "ornek_cumle": "Employee loyalty is essential for a successful business."
+  },
+  {
+    "kelime": "Magazine",
+    "tip": "n.",
+    "anlam": "1) Silah Deposu 2) Magazin 3) Şarjür (Silahın)",
+    "ornek_cumle": "I read a travel magazine on the plane."
+  },
+  {
+    "kelime": "Magnet",
+    "tip": "n.",
+    "anlam": "Miknatis",
+    "ornek_cumle": "The refrigerator door is held shut by a magnet."
+  }
+]

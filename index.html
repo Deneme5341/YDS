@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YDS/YÖKDİL Kelime Ezber Aracı</title>
+    <style>
+        /* GENEL STİLLER */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #8b0000; /* Koyu Kırmızı - YDS teması */
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        /* MODÜL STİLLERİ */
+        .menu, .card, .test-results, #matching-game-container {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+
+        /* BUTON VE SEÇİM STİLLERİ */
+        button, select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button.start-test { background-color: #28a745; }
+        button.start-test:hover { background-color: #218838; }
+        .menu button { background-color: #8b0000; } /* Koyu Kırmızı */
+        .menu button:hover { background-color: #6a0000; }
+        
+        select {
+            background-color: #e9ecef;
+            color: #333;
+            -webkit-appearance: none; 
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+        .select-group {
+            margin-bottom: 15px;
+        }
+        .select-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* KART STİLLERİ */
+        .card {
+            border-left: 5px solid #8b0000;
+            display: none;
+            padding: 15px;
+        }
+        .card.active {
+            display: block;
+        }
+        
+        /* EŞLEŞTİRME OYUNU STİLLERİ */
+        #matching-game-container {
+            display: none;
+            text-align: center;
+        }
+        #match-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .match-card {
+            padding: 15px 10px;
+            background-color: #e9ecef;
+            border: 2px solid #ced4da;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9em;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .match-card.selected {
+            background-color: #ffc107;
+            border-color: #d39e00;
+        }
+        .match-card.matched {
+            background-color: #28a745;
+            color: white;
+            border-color: #218838;
+            pointer-events: none; 
+        }
+        .match-card.incorrect {
+            background-color: #dc3545;
+            color: white;
+            border-color: #c82333;
+        }
+        #match-message {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #dc3545;
+        }
+        #match-progress {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #8b0000;
+        }
+
+
+        /* TEST MODU İÇİN ÖZEL STİLLER */
+        #quiz-question {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #dc3545;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .quiz-options {
+            display: grid;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .quiz-option-button {
+            padding: 15px;
+            border-radius: 6px;
+            text-align: left;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+            cursor: pointer;
+            transition: background-color 0.15s, border-color 0.15s;
+            font-weight: 500;
+            color: #333;
+        }
+        .quiz-option-button:hover:not(.disabled) {
+            background-color: #e9ecef;
+        }
+        .quiz-option-button.correct {
+            background-color: #28a745; /* Yeşil */
+            color: white;
+            border-color: #218838;
+        }
+        .quiz-option-button.incorrect {
+            background-color: #dc3545; /* Kırmızı */
+            color: white;
+            border-color: #c82333;
+        }
+        .quiz-option-button.disabled {
+            pointer-events: none;
+        }
+
+        /* SONUÇ STİLLERİ */
+        .test-results h2 { color: #28a745; }
+        .test-results h3 { color: #dc3545; }
+        .result-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95em;
+        }
+        .result-item:last-child { border-bottom: none; }
+        .result-item strong { color: #dc3545; }
+
+        /* GİZLE/GÖSTER DURUMLARI */
+        #test-container, #word-cards-container p:empty { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>YDS - YÖKDİL Kelime Ezber Aracı</h1>
+
+    <div class="menu">
+        <div class="select-group">
+            <label for="seviye-filtre">Kelime Grubu Seçin:</label>
+            <select id="seviye-filtre">
+                <option value="yds1">1-300 Arası</option>
+                <option value="yds2">301-600 Arası</option>
+                <option value="yds3">601-900 Arası</option>
+                <option value="yds4" selected>901-1124 Arası</option>
+                <option value="all">Tüm YDS Kelimeleri</option>
+            </select>
+        </div>
+
+        <div class="select-group">
+            <label for="görünüm-modu">Çalışma Modu:</label>
+            <select id="görünüm-modu">
+                <option value="liste">Liste Görünümü (Tümü)</option>
+                <option value="matching">Eşleştirme Oyunu (Eğlenceli)</option>
+            </select>
+        </div>
+        
+        <button class="start-test" onclick="startTest()">Rastgele 50 Kelimelik Test Başlat</button>
+        <button onclick="displayWords()">Seçili Kelimeleri Göster / Başlat</button>
+    </div>
+
+    <div id="matching-game-container">
+        <div id="match-progress"></div>
+        <div id="match-grid">
+            </div>
+        <div id="match-message" style="color: #28a745;">Oyuna başlamak için yukarıdan grup seçip 'Başlat'a tıklayın.</div>
+    </div>
+
+    <div id="word-cards-container" style="display:none;">
+        </div>
+
+    <div id="test-container" style="display:none;">
+        <div id="quiz-header" style="text-align: center; margin-bottom: 10px;"></div>
+        <div class="card active">
+            <div id="quiz-question"></div>
+            <div id="quiz-options" class="quiz-options">
+                </div>
+        </div>
+    </div>
+
+    <div id="test-results-container" class="test-results">
+        <h2>Test Sonuçları</h2>
+        <p id="score-summary" style="font-size: 1.1em; font-weight: bold;"></p>
+        <h3>Öğrenilmesi Gerekenler:</h3>
+        <ul id="failed-words-list" style="list-style-type: none; padding: 0;"></ul>
+        <button onclick="window.location.reload();" style="background-color: #007bff; margin-top: 15px;">Yeni Test Başlat/Ana Sayfaya Dön</button>
+    </div>
+
+</div>
+
+<script>
+    let currentWords = [];
+    let testWords = [];
+    let currentTestIndex = 0;
+    const TEST_SIZE = 50;
+    const MATCH_PAIR_COUNT = 6; 
+    let score = 0;
+
+    // Eşleştirme Oyunu Değişkenleri
+    let selectedCards = [];
+    let matchedPairs = 0;
+    let matchingWords = []; 
+
+    // YDS JSON DOSYA İSİMLERİ VE GRUP EŞLEŞTİRMESİ
+    const fileMap = {
+        'yds1': { file: 'yds_kelimeler_1_300.json', seviye: '1-300' },
+        'yds2': { file: 'yds_kelimeler_301_600.json', seviye: '301-600' },
+        'yds3': { file: 'yds_kelimeler_601_900.json', seviye: '601-900' }, 
+        'yds4': { file: 'yds_kelimeler_901_1124.json', seviye: '901-1124' }
+    };
+
+    // --- UTILITY FONKSİYONLARI ---
+
+    /**
+     * Diziyi karıştırır (Fisher-Yates)
+     */
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    // Rastgele kelime seçme (Tüm modlar için kullanılır)
+    function selectRandomWords(words, count) {
+        if (words.length === 0) return [];
+        if (words.length <= count) {
+            return words.map(word => ({ ...word, correct: false }));
+        }
+        const shuffled = [...words].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
+    }
+    
+    // --- GENEL MOD YÖNETİMİ ---
+
+    // Seçili seviyeye göre kelimeleri yükler ve görünüm modunu belirler
+    async function displayWords() {
+        const seviye = document.getElementById('seviye-filtre').value;
+        const mod = document.getElementById('görünüm-modu').value;
+        
+        // Tüm görünüm alanlarını gizle
+        document.getElementById('test-container').style.display = 'none';
+        document.getElementById('test-results-container').style.display = 'none';
+        document.getElementById('word-cards-container').style.display = 'none';
+        document.getElementById('matching-game-container').style.display = 'none';
+        
+        // Kelimeleri yükle
+        currentWords = await fetchWords(seviye);
+
+        if (mod === 'liste') {
+            renderWordList(currentWords, seviye);
+        } else if (mod === 'matching') {
+            startMatchingGame(currentWords, seviye);
+        }
+    }
+
+    // --- DATA YÜKLEME (YDS İÇİN) ---
+    async function fetchWords(seviye) {
+        if (seviye === 'all') {
+            const allPromises = Object.values(fileMap).map(map => 
+                fetch(map.file)
+                    .then(res => res.json())
+                    .then(words => words.map(w => ({...w, seviye: map.seviye}))) 
+                    .catch(e => { console.error(`Dosya yüklenemedi: ${map.file}`, e); return []; })
+            );
+            const results = await Promise.all(allPromises);
+            return results.flat();
+        } else if (fileMap[seviye]) {
+            try {
+                const map = fileMap[seviye];
+                const response = await fetch(map.file);
+                const words = await response.json();
+                return words.map(w => ({...w, seviye: map.seviye}));
+            } catch (error) {
+                console.error(`Dosya yüklenemedi: ${fileMap[seviye].file}`, error);
+                return [];
+            }
+        }
+        return [];
+    }
+
+    // --- MOD 1: KELİME LİSTESİ ---
+
+    function renderWordList(words, seviye) {
+        const container = document.getElementById('word-cards-container');
+        container.style.display = 'block';
+        
+        const groupName = seviye === 'all' ? 'Tüm YDS Kelimeleri' : fileMap[seviye].seviye + ' Arası Kelimeler';
+        container.innerHTML = `<p style="text-align:center; font-weight:bold; color: #5cb85c;">${groupName} (${words.length} Kelime)</p>`;
+        
+        if (words.length === 0) {
+            container.innerHTML += `<p style="text-align:center; color:red;">Bu grupta kelime bulunamadı veya JSON dosyası eksik/hatalı.</p>`;
+            return;
+        }
+
+        words.forEach((word, index) => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.style.display = 'block';
+            card.innerHTML = `
+                <h2>${word.kelime} <span style="font-size:0.6em; color:#6c757d;">(${word.seviye || groupName})</span></h2>
+                <div class="details" style="display: none;">
+                    <p><strong>Kelime Tipi:</strong> ${word.tip}</p>
+                    <p><strong>Türkçe Anlam:</strong> ${word.anlam}</p>
+                    <p><strong>Örnek Cümle:</strong> <em>${word.ornek_cumle}</em></p>
+                </div>
+                <button data-index="${index}" onclick="toggleListDetails(this)">Anlamı Göster</button>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function toggleListDetails(button) {
+        const detailsDiv = button.previousElementSibling;
+        
+        if (detailsDiv.style.display === 'none' || detailsDiv.style.display === '') {
+            detailsDiv.style.display = 'block';
+            button.textContent = 'Anlamı Gizle';
+            button.style.backgroundColor = '#f0ad4e';
+        } else {
+            detailsDiv.style.display = 'none';
+            button.textContent = 'Anlamı Göster';
+            button.style.backgroundColor = '#8b0000'; // Liste görünüm butonu rengi
+        }
+    }
+    
+    // --- MOD 2: EŞLEŞTİRME OYUNU ---
+
+    function startMatchingGame(words, seviye) {
+        document.getElementById('matching-game-container').style.display = 'block';
+        document.getElementById('match-message').textContent = `Yeni oyun başladı. Eşini bulmak için kelimelere tıkla!`;
+        
+        const selectedPairs = selectRandomWords(words, MATCH_PAIR_COUNT);
+        if (selectedPairs.length < MATCH_PAIR_COUNT) {
+            document.getElementById('match-message').textContent = `Hata: Seçili grupta ${MATCH_PAIR_COUNT} çift oluşturacak kadar kelime yok. Lütfen 'Tüm YDS Kelimeleri' grubunu deneyin.`;
+            document.getElementById('match-grid').innerHTML = '';
+            return;
+        }
+
+        matchingWords = [];
+        selectedPairs.forEach((word, index) => {
+            const pairId = `p-${index}`;
+            matchingWords.push({ id: pairId, text: word.kelime, type: 'en', matched: false }); 
+            matchingWords.push({ id: pairId, text: word.anlam, type: 'tr', matched: false });
+        });
+
+        shuffleArray(matchingWords);
+        
+        selectedCards = [];
+        matchedPairs = 0;
+        renderMatchGrid();
+    }
+
+    function renderMatchGrid() {
+        const grid = document.getElementById('match-grid');
+        grid.innerHTML = '';
+        
+        document.getElementById('match-progress').textContent = `Eşleşen: ${matchedPairs} / ${MATCH_PAIR_PAIR_COUNT} çift`;
+
+        matchingWords.forEach((item, index) => {
+            if (item.matched) return; 
+
+            const cardElement = document.createElement('div');
+            cardElement.className = 'match-card';
+            cardElement.textContent = item.text;
+            cardElement.setAttribute('data-id', item.id);
+            cardElement.setAttribute('data-index', index);
+            cardElement.onclick = () => handleCardClick(cardElement, item);
+            grid.appendChild(cardElement);
+        });
+
+        if (matchedPairs === MATCH_PAIR_COUNT) {
+            document.getElementById('match-message').textContent = 'Tebrikler! Tüm kelimeleri eşleştirdiniz!';
+            document.getElementById('match-message').style.color = '#28a745';
+        }
+    }
+
+    function handleCardClick(cardElement, item) {
+        if (cardElement.classList.contains('matched') || selectedCards.includes(cardElement)) return;
+        
+        cardElement.classList.add('selected');
+        selectedCards.push(cardElement);
+
+        if (selectedCards.length === 2) {
+            const [card1, card2] = selectedCards;
+            const item1 = matchingWords[parseInt(card1.getAttribute('data-index'))];
+            const item2 = matchingWords[parseInt(card2.getAttribute('data-index'))];
+
+            if (item1.id === item2.id) {
+                // Eşleşti!
+                card1.classList.add('matched');
+                card2.classList.add('matched');
+                item1.matched = true;
+                item2.matched = true;
+                matchedPairs++;
+                document.getElementById('match-message').textContent = 'Doğru eşleşme!';
+                document.getElementById('match-message').style.color = '#28a745';
+                selectedCards = [];
+
+                setTimeout(renderMatchGrid, 500); 
+
+            } else {
+                // Yanlış eşleşme
+                card1.classList.add('incorrect');
+                card2.classList.add('incorrect');
+                document.getElementById('match-message').textContent = 'Yanlış eşleşme! Tekrar dene.';
+                document.getElementById('match-message').style.color = '#dc3545';
+                
+                setTimeout(() => {
+                    card1.classList.remove('selected', 'incorrect');
+                    card2.classList.remove('selected', 'incorrect');
+                    selectedCards = [];
+                    document.getElementById('match-message').textContent = 'Eşini bulmak için kelimelere tıkla!';
+                    document.getElementById('match-message').style.color = '#dc3545';
+                }, 1000);
+            }
+        }
+    }
+
+    // --- MOD 3: ÇOKTAN SEÇMELİ TEST ---
+
+    async function startTest() {
+        const selectedLevel = document.getElementById('seviye-filtre').value;
+        
+        // Tüm görünüm alanlarını gizle
+        document.getElementById('word-cards-container').style.display = 'none';
+        document.getElementById('matching-game-container').style.display = 'none';
+        document.getElementById('test-results-container').style.display = 'none';
+
+        // Tüm kelimeleri al (Yanlış şıklar için bu her zaman gereklidir)
+        const allWords = await fetchWords('all');
+        const wordsForTest = selectRandomWords(allWords, TEST_SIZE);
+        
+        if (wordsForTest.length < TEST_SIZE) {
+            alert(`Test için yeterli kelime (${TEST_SIZE}) bulunamadı. Lütfen JSON dosyalarınızı kontrol edin.`);
+            return;
+        }
+        
+        testWords = wordsForTest;
+        currentTestIndex = 0;
+        score = 0;
+        
+        document.getElementById('test-container').style.display = 'block';
+        renderTestCard();
+    }
+
+    // Test kartını render et (Çoktan Seçmeli)
+    function renderTestCard() {
+        if (currentTestIndex >= testWords.length) {
+            showTestResults();
+            return;
+        }
+
+        const currentWord = testWords[currentTestIndex];
+        // Test için kullanılabilir tüm kelimelerin listesini al
+        const allWordsFlat = currentWords.length > 0 ? currentWords : testWords; 
+
+        // Doğru şıkkı hariç tutarak 3 rastgele yanlış şık seç (kelimenin kendisi doğru cevap olur)
+        const incorrectOptions = allWordsFlat
+            .filter(word => word.kelime !== currentWord.kelime)
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 3);
+            
+        // Seçenekleri oluştur (Doğru şık + 3 yanlış şık)
+        const options = [
+            { kelime: currentWord.kelime, correct: true },
+            ...incorrectOptions.map(w => ({ kelime: w.kelime, correct: false }))
+        ];
+
+        shuffleArray(options); // Şıkları karıştır
+
+        const header = document.getElementById('quiz-header');
+        const question = document.getElementById('quiz-question');
+        const optionsContainer = document.getElementById('quiz-options');
+        optionsContainer.innerHTML = '';
+        
+        const groupName = fileMap[document.getElementById('seviye-filtre').value].seviye;
+
+        header.innerHTML = `Soru ${currentTestIndex + 1} / ${TEST_SIZE} (${groupName} Grubu)`;
+        question.textContent = `Aşağıdaki kelimelerden hangisinin anlamı: "${currentWord.anlam}"`;
+
+        options.forEach(option => {
+            const button = document.createElement('button');
+            button.className = 'quiz-option-button';
+            button.textContent = option.kelime;
+            button.setAttribute('data-correct', option.correct);
+            button.onclick = () => handleQuizAnswer(button, currentWord.kelime);
+            optionsContainer.appendChild(button);
+        });
+    }
+    
+    // Çoktan seçmeli cevabı işleme
+    function handleQuizAnswer(selectedButton, correctAnswer) {
+        const isCorrect = selectedButton.getAttribute('data-correct') === 'true';
+        const allButtons = document.querySelectorAll('.quiz-option-button');
+        
+        // Tüm butonları devre dışı bırak
+        allButtons.forEach(btn => btn.classList.add('disabled'));
+
+        if (isCorrect) {
+            selectedButton.classList.add('correct');
+            score++;
+            testWords[currentTestIndex].correct = true;
+        } else {
+            selectedButton.classList.add('incorrect');
+            testWords[currentTestIndex].correct = false;
+            
+            // Doğru cevabı yeşil yap
+            allButtons.forEach(btn => {
+                if (btn.getAttribute('data-correct') === 'true') {
+                    btn.classList.add('correct');
+                }
+            });
+        }
+        
+        // Bir sonraki soruya 1.5 saniye sonra geç
+        setTimeout(() => {
+            currentTestIndex++;
+            renderTestCard();
+        }, 1500);
+    }
+
+    // Test sonuçlarını göster
+    function showTestResults() {
+        document.getElementById('test-container').style.display = 'none';
+        const resultsContainer = document.getElementById('test-results-container');
+        resultsContainer.style.display = 'block';
+
+        const correctCount = testWords.filter(w => w.correct).length;
+        const failedWords = testWords.filter(w => !w.correct);
+
+        document.getElementById('score-summary').innerHTML = `Sonuç: ${correctCount} / ${TEST_SIZE} (${Math.round((correctCount / TEST_SIZE) * 100)}%) başarılı.`;
+
+        const failedList = document.getElementById('failed-words-list');
+        failedList.innerHTML = '';
+        failedWords.forEach(word => {
+            const li = document.createElement('li');
+            li.className = 'result-item';
+            li.innerHTML = `<strong>${word.kelime} (${word.seviye})</strong>: ${word.anlam} <br> Örnek: <em>${word.ornek_cumle}</em>`;
+            failedList.appendChild(li);
+        });
+        
+        if (failedWords.length === 0) {
+            failedList.innerHTML = '<li style="color:#28a745; font-weight: bold;">Tebrikler! Tüm kelimeleri doğru bildiniz. Mükemmel bir çalışma!</li>';
+        }
+    }
+
+    // Sayfa yüklendiğinde varsayılanı göster
+    document.addEventListener('DOMContentLoaded', () => {
+        displayWords();
+    });
+
+</script>
+
+</body>
+</html>
